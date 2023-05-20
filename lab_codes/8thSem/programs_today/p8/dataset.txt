@@ -1,0 +1,5 @@
+chinese beijing chinese C
+chinese chinese shanghai C
+chinese macao C
+tokyo japan chinese J
+chinese chinese tokyo japan 

@@ -1,0 +1,2 @@
+This is a sample training corpus. It contains multiple sentences for training the BPE tokenizer.
+The BPE algorithm will learn the subword units based on the training corpus.

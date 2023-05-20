@@ -1,0 +1,59 @@
+[YASHs-MacBook-Air:NLP Lab 14 yashvinayvanshi$ python3 14.py
+Logistic Regression:
+Confusion Matrix:
+[[59  3]
+ [40 19]]
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.60      0.95      0.73        62
+      sports       0.86      0.32      0.47        59
+
+    accuracy                           0.64       121
+   macro avg       0.73      0.64      0.60       121
+weighted avg       0.73      0.64      0.60       121
+
+
+SVM:
+Confusion Matrix:
+[[43 19]
+ [22 37]]
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.66      0.69      0.68        62
+      sports       0.66      0.63      0.64        59
+
+    accuracy                           0.66       121
+   macro avg       0.66      0.66      0.66       121
+weighted avg       0.66      0.66      0.66       121
+
+
+Random Forest:
+Confusion Matrix:
+[[62  0]
+ [52  7]]
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.54      1.00      0.70        62
+      sports       1.00      0.12      0.21        59
+
+    accuracy                           0.57       121
+   macro avg       0.77      0.56      0.46       121
+weighted avg       0.77      0.57      0.46       121
+
+
+AdaBoost:
+Confusion Matrix:
+[[59  3]
+ [45 14]]
+Classification Report:
+              precision    recall  f1-score   support
+
+    politics       0.57      0.95      0.71        62
+      sports       0.82      0.24      0.37        59
+
+    accuracy                           0.60       121
+   macro avg       0.70      0.59      0.54       121
+weighted avg       0.69      0.60      0.54       121
